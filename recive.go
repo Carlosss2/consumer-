@@ -113,7 +113,7 @@ func main() {
 		log.Fatal(err)
 	}
 
-	apiURL := "http://localhost:8082/payments" 
+	apiURL := "http://3.223.139.215:8082/payments" 
 	log.Println("Listening for messages...")
 
 	server.StartConsumer(apiURL)
